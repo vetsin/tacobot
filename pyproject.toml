@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tacobot"
+version = "0.1.0"
+description = "A bot for The Taco Lab"
+authors = ["vetsin"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<4.0.0"
+"discord.py" = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+bottle = "^0.12.23"
+requests = "^2.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
